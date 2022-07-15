@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Aquisition Prediction</title>
+</head>
+
+<body>
+    <div style="color:blue">
+    <h1>Startup Aquisition Prediction</h1>
+    <form action="predict" method="post">
+    </div>
+    <div>
+    <label for="country_code">Country code</label>
+    <select name="country_code" id="country_code">
+        <option value="USA">USA</option>
+        <option value="GBR">GBR</option>
+        <option value="IND">IND</option>
+        <option value="CAN">CAN</option>
+        <option value="DEU">DEU</option>
+        <option value="FRA">FRA</option>
+        <option value="AUS">AUS</option>
+        <option value="ESP">ESP</option>
+        <option value="ISR">IRL</option>
+        <option value="NLD">ISR</option>
+        <option value="NLD">NLD</option>
+        <option value="Other">Others</option>
+        </select>
+    </div>
+    <div>
+    <label for="category_code">Category code</label>
+    <select name="category_code" id="category_code">
+        <option value="SOFTWARE">Software</option>
+        <option value="WEB">Web</option>
+        <option value="ECOMMERCE">Ecommerce</option>
+        <option value="ADVERTISING">Advertising</option>
+        <option value="MOBILE">Mobile</option>
+        <option value="CONSULTING">Consulting</option>
+        <option value="GAMES_VIDEO">Video Games</option>
+        <option value="ENTERPRISE">Enterprise</option>
+        <option value="BIOTECH">Biotech</option>
+        <option value="PUBLIC_RELATIONS">Public Relations</option>
+        <option value="OTHER">Others</option>
+        </select>
+        
+    </div>
+    <div>
+        <label for="No_of_years_since_foundation">Years since foundation </label>
+        <input type="text" name="No_of_years_since_foundation" id="No_of_years_since_foundation">
+    </div>
+    <div>
+        <label for="No_of_years_since_first_funding">Years since first funding </label>
+        <input type="text" name="No_of_years_since_first_funding" id="No_of_years_since_first_funding">
+    </div>
+    <div>
+        <label for="No_of_years_since_last_funding">Years since last funding </label>
+        <input type="text" name="No_of_years_since_last_funding" id="No_of_years_since_last_funding">
+    </div>
+    <div>
+        <label for="No_of_years_since_last_milestone">Years since last milestone </label>
+        <input type="text" name="No_of_years_since_last_milestone" id="No_of_years_since_last_milestone">
+    </div>
+    <div>
+        <label for="No_of_years_since_graduation">Years since Founder's Graduation </label>
+        <input type="text" name="No_of_years_since_graduation" id="No_of_years_since_graduation">
+    </div>  
+    <div>
+        <label for="funding_rounds">Number of funding rounds </label>
+        <input type="text" name="funding_rounds" id="funding_rounds">
+    </div>
+    <div>
+        <label for="funding_total_usd">Funding total in USD($) </label>
+        <input type="text" name="funding_total_usd" id="funding_total_usd">
+    </div>
+    <div>
+        <label for="milestones">Number of milestones </label>
+        <input type="text" name="milestones" id="milestones">
+    </div>
+    <div>
+        <label for="twitter_presence">Twitter Presence? </label>
+        <select name="twitter_presence" id="twitter_presence">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+        </select>
+    </div>
+    <div>
+        <label for="funding_round_type">Funding round type </label>
+        <select name="funding_round_type" id="funding_round_type">
+        <option value="angel">Angel</option>
+        <option value="crowdfunding">Crowdfunding</option>
+        <option value="post-ipo">Post-IPO</option>
+        <option value="private-equity">Private-Equity</option>
+        <option value="series-a">Series-a</option>
+        <option value="series-b">Series-b</option>
+        <option value="series-c+">Series-c+</option>
+        <option value="venture">Venture</option>
+        <option value="other">Other</option>
+        </select>
+   
+  
+    </div>
+    <button type="submit">Predict the status of a Startup</button>
+    </form>
+
+</body>
+</html>    
